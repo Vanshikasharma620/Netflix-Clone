@@ -1,0 +1,404 @@
+.class1 {
+  background-image: url("Netflix-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  /* height: 745px; */
+  display: flex;
+  flex-direction: column;
+  margin-top: -8px;
+  opacity: 0.9;
+}
+
+body {
+  background-color: black;
+}
+
+#logo {
+  padding: 16px 31px;
+}
+
+#logo img {
+  height: 80px;
+  width: 145px;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#navbar a button {
+  color: white;
+  background-color: red;
+  display: block;
+  padding: 6px 16px;
+  border-radius: 5px;
+  margin-top: 14px;
+  text-decoration: none;
+  list-style: none;
+}
+
+#navbar a {
+  text-decoration: none;
+}
+
+#navbar a button:hover {
+  color: black;
+}
+
+#netflix {
+  display: flex;
+  flex-direction: column;
+}
+
+#netflix h1 {
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 3.8rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+#netflix h1:hover {
+  cursor: pointer;
+  font-size: 4rem;
+}
+
+#netflix p {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  margin: 4px 0px;
+}
+
+#login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 13px 0px;
+}
+
+.btn {
+  padding: 14px 10px;
+  text-align: center;
+  background-color: white;
+  font-size: 1.8rem;
+  margin-top: 13px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.btn1 {
+  padding: 14px;
+
+  color: white;
+  background-color: red;
+  font-size: 1.8rem;
+}
+
+#login input {
+  padding: 14px;
+  font-size: 1.8rem;
+}
+
+.btn1:hover {
+  cursor: pointer;
+  color: black;
+}
+
+/* .dropbtn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  margin-right: 50px;
+  padding: 8px 22px;
+  font-size: 21px;
+  margin-top: 15px;
+} */
+
+#border {
+  height: 10px;
+  background-color: gray;
+}
+
+.class2 {
+  height: 438px;
+  background-color: black;
+}
+
+#heading h3 {
+  color: rgba(255, 255, 255, 0.411);
+}
+
+.class2 ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.class2 ul li a {
+  width: 100px;
+  display: flex;
+
+  font-size: 13px;
+  margin: 15px 40px;
+  list-style: none;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.411);
+}
+
+#netflix-footer {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+#heading {
+  max-width: 650px;
+  margin: auto;
+  margin-top: 0px;
+  padding-top: 80px;
+}
+
+#right {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 15px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.row11 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sec2 {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.secw {
+  flex-wrap: wrap;
+  max-width: 50%;
+  justify-content: center;
+  color: white;
+  align-items: center;
+}
+.secw h2 {
+  font-size: 2rem;
+}
+.secw h3 {
+  font-size: 1.7rem;
+}
+
+#mostasked {
+  text-align: center;
+  /* height: 500px; */
+  /* width: 65%; */
+  margin: auto;
+}
+#mostasked h1 {
+  font-size: 3rem;
+  color: white;
+}
+.ques {
+  text-align: left;
+  padding: 0px 20px;
+  padding-top: 5px;
+  width: 50%;
+  background-color: grey;
+  color: black;
+  margin: auto;
+  margin-top: 20px;
+}
+.ques h3 {
+  font-size: 1.4rem;
+}
+.hide {
+  display: none;
+}
+.btnadd {
+  border: none;
+  background-color: transparent;
+  color: black;
+}
+.questop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.ans {
+  padding: 30px;
+}
+
+#about {
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+}
+#writeup h1 {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+#writeup h3 {
+  font-size: 2rem;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#writeup h4 {
+  font-size: 1.4rem;
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+#about input {
+  font-size: 2rem;
+  width: 70%;
+  height: 50px;
+}
+#about button {
+  border: none;
+  padding: 8px;
+  height: 55px;
+}
+
+#para {
+  display: flex;
+  flex-direction: column;
+}
+
+#para p {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  margin: 44px 0px;
+}
+
+#login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 13px 0px;
+}
+
+.btn {
+  padding: 14px 10px;
+  text-align: center;
+  background-color: white;
+  font-size: 1.8rem;
+  margin-top: 13px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.btn1 {
+  padding: 14px;
+
+  color: white;
+  background-color: red;
+  font-size: 1.8rem;
+}
+
+#login input {
+  padding: 14px;
+  font-size: 1.8rem;
+}
+
+.btn1:hover {
+  cursor: pointer;
+  color: black;
+}
+
+@media only screen and (max-width: 660px) {
+  #jumbotron img {
+    height: 150px;
+    width: 320px;
+    object-fit: contain;
+  }
+
+  .btn1 {
+    padding: 9px 0px;
+
+    color: white;
+    background-color: red;
+    font-size: 1.1rem;
+  }
+
+  #login input {
+    padding: 7px;
+    font-size: 1.2rem;
+  }
+
+  #netflix h1 {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  #netflix p {
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    margin: 8px 0px;
+  }
+
+  .secw h2 {
+    font-size: 1.4rem;
+  }
+
+  .secw h3 {
+    font-size: 1rem;
+  }
+
+  #para p {
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    margin: 30px 0px;
+  }
+
+  .ques h3 {
+    font-size: 1rem;
+  }
+
+  #heading h3 {
+    color: rgba(255, 255, 255, 0.411);
+    text-align: center;
+  }
+}
